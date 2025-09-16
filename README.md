@@ -55,9 +55,9 @@ Systems-focused DevOps engineer with 2.5+ years scaling AWS platforms, automatin
 
 ## 🤝 Connect
 <p align="left">
-  <a href="https://github.com/Mahigurjarr" target="_blank">
+  <!-- <a href="https://github.com/Mahigurjarr" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+  </a> -->
   <a href="https://www.linkedin.com/in/mahigurjarr" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
