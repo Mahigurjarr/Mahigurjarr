@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahipal Singh | DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav">
+      <div class="logo">MS</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Senior DevOps Engineer</p>
+          <h1>Mahipal Singh</h1>
+          <p class="lead">
+            I design scalable infrastructure, observability platforms, and CI/CD automation that keep teams shipping fast without sacrificing reliability.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="mailto:Mahipalgurjar99@gmail.com">Let's Collaborate</a>
+            <a class="btn secondary" href="Mahipal-resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn secondary" href="#projects">View Projects</a>
+          </div>
+        </div>
+        <div class="hero-portrait">
+          <img src="mahi.jpg" alt="Mahipal Singh" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <span class="section-emoji">🛠</span>
+        <h2>Skills</h2>
+        <p>Tooling I use to build reliable and observable platforms.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Cloud & Platforms</h3>
+          <p>AWS (EC2, S3, EFS, CloudWatch, VPC, Amplify, API Gateway, Route53)</p>
+        </article>
+        <article class="card">
+          <h3>Infrastructure as Code</h3>
+          <p>Terraform, reusable modules, environment automation</p>
+        </article>
+        <article class="card">
+          <h3>Containers & Orchestration</h3>
+          <p>Docker, Docker Swarm, Kubernetes, Helm, ECS</p>
+        </article>
+        <article class="card">
+          <h3>CI/CD & Automation</h3>
+          <p>GitHub Actions, Jenkins, Git strategies, release pipelines</p>
+        </article>
+        <article class="card">
+          <h3>Observability & Monitoring</h3>
+          <p>Prometheus, Grafana, Loki, Tempo, CloudWatch, Netdata</p>
+        </article>
+        <article class="card">
+          <h3>Scripting & Tooling</h3>
+          <p>Bash scripting, Git, NGINX, Xray, Artifactory, MongoDB, Elasticsearch, Cloudflare Zero Trust</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <span class="section-emoji">💼</span>
+        <h2>Work Experience</h2>
+        <p>Delivering high-availability infrastructure and automation across client environments.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>Senior DevOps Engineer</h3>
+            <span>April 2024 &ndash; Present</span>
+          </div>
+          <p>Orchestrated multi-tenant observability stack (Prometheus, Loki, Tempo, Grafana) handling ~25TB/month across 17+ environments.</p>
+          <ul>
+            <li>Automated daily infra health checks, disk audits, and Elasticsearch index recovery with Bash.</li>
+            <li>Ran Slack-integrated alerting and supported 10+ production hives for zero-downtime releases.</li>
+            <li>Collaborated with product, QA, and support teams while leading runbooks and KT programs.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>DevOps Engineer</h3>
+            <span>May 2023 &ndash; March 2024</span>
+          </div>
+          <p>Managed AWS environments and accelerated delivery with container-native and CI/CD practices.</p>
+          <ul>
+            <li>Automated rollouts using GitHub Actions, Docker Swarm, and IaC-driven pipelines.</li>
+            <li>Containerized PHP applications onto AWS ECS with secure IAM and scalable services.</li>
+            <li>Rolled out Kubernetes workloads with ingress, autoscaling, and Prometheus/Grafana monitoring.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <h3>DevOps Intern</h3>
+            <span>March 2023 &ndash; April 2023</span>
+          </div>
+          <p>Foundational DevOps journey focused on containerization, CI/CD, and AWS fundamentals.</p>
+          <ul>
+            <li>Built Dockerized proof-of-concepts and GitHub Actions workflows for web apps.</li>
+            <li>Deployed services on AWS EC2 and monitored environments alongside senior engineers.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <span class="section-emoji">🌟</span>
+        <h2>Projects</h2>
+        <p>Selected engagements that highlight automation, observability, and resilient delivery.</p>
+      </div>
+      <div class="grid projects">
+        <article class="card">
+          <h3>Elasticsuite Observability Platform</h3>
+          <p>Delivered centralized monitoring across 17+ environments with a Prometheus, Loki, Tempo, and Grafana stack handling ~25TB/month.</p>
+          <p class="tech">AWS · Kubernetes · Prometheus · Loki · Tempo · Grafana · Bash</p>
+        </article>
+        <article class="card">
+          <h3>Reflik Modernization</h3>
+          <p>Containerized a legacy PHP application, deployed to AWS ECS with autoscaling, and wired GitHub Actions workflows plus CloudWatch alerting.</p>
+          <p class="tech">AWS ECS · Docker · GitHub Actions · CloudWatch · IAM</p>
+        </article>
+        <article class="card">
+          <h3>Jips Microservices Platform</h3>
+          <p>Built Kubernetes deployment patterns for Odoo, Keycloak, and SWF APIs with Helm, autoscaling, and performance dashboards.</p>
+          <p class="tech">Kubernetes · Helm · Prometheus · Grafana · AWS</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="activities">
+      <div class="section-heading">
+        <span class="section-emoji">🏅</span>
+        <h2>Extra-Curricular</h2>
+        <p>Competitive achievements that highlight teamwork and drive outside the workplace.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>K.V.S National Sports Meet – Chennai</h3>
+          <p>Represented the Delhi region in handball and secured the 2nd position during the national finals.</p>
+          <p class="tech">November 2017 · Handball · Delhi Region</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="section-heading">
+        <span class="section-emoji">📄</span>
+        <h2>Resume</h2>
+        <p>Preview or download my latest resume in PDF format.</p>
+      </div>
+      <div class="resume-viewer">
+        <object data="Mahipal-resume.pdf" type="application/pdf" aria-label="Mahipal Singh resume">
+          <p>Your browser cannot display PDFs. <a href="Mahipal-resume.pdf" download>Download the resume</a>.</p>
+        </object>
+        <a class="btn secondary" href="Mahipal-resume.pdf" download>Download Resume</a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <span class="section-emoji">📬</span>
+        <h2>Contact</h2>
+        <p>Let's build resilient platforms together.</p>
+      </div>
+      <div class="contact-info">
+        <a class="btn primary" href="mailto:Mahipalgurjar99@gmail.com">Email Me</a>
+        <a class="btn secondary" href="https://github.com/Mahigurjarr" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/mahigurjarr" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="alt-contact">📞 +91 9079293471</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Mahipal Singh. Built with a passion for automation.</p>
+  </footer>
+
+  <script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      navToggle.classList.toggle('open');
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
